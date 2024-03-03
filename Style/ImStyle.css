@@ -1,0 +1,94 @@
+*{
+	margin:0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+
+}
+body,html{
+  background: whitesmoke;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+ overflow-x: hidden;
+ overflow-y: scroll;
+}
+.img img{
+	width: 100%;
+	height: 550px;
+}
+.img .ms{
+	position: absolute;
+	color:#00ff14;
+	margin-top: 180px;
+	margin-left: 30px;
+}
+.img .ms h3{
+	color: white;
+}
+.nav{
+	width: 100%;
+	height: 80px;
+	background: #0881ff;
+	text-align: center;
+}
+.nav .bts{
+	padding-top: 20px;
+}
+.nav a{
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+span {
+	color:orange;
+}
+.images{
+	margin-top: 150px;
+}
+.images .flx{
+	margin-top: 50px;
+	display: flex;
+}
+.images .flx .card{
+	margin-left: 20px;
+	width: 400px;
+	height: 450px;
+	border:3px solid #0881ff;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0px 0px 30px #0881ff;
+	text-align: center;
+	margin: auto;
+}
+.images .flx .card img{
+	width: 400px;
+	height: 370px;
+}
+.footer{
+	margin-top: 100px;
+	width: 100%;
+	height: 200px;
+	background:#0881ff;
+	text-align: center;
+	color: white;
+}
+.footer h3{
+	padding-top: 100px;
+}
+
+@media(max-width: 1041px){
+	.images .flx{
+		display: grid;
+	}
+	.images .flx .card{
+		width: 100%;
+		height: 450px;
+		margin-top: 50px;
+	}
+	.images .flx .card img{
+		width: 100%;
+		height: 450px;
+	}
+}
